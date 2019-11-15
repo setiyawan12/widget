@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnButton"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:background="@color/hijau"
+        android:text="button" />
+
+    <Button
+        android:id="@+id/btnImage"
+        android:layout_marginTop="10dp"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:background="@color/biru"
+        android:text="Image"/>
+
+    <Button
+        android:id="@+id/btnLinear"
+        android:layout_marginTop="10dp"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:background="@color/colorAccent"
+        android:text="Linear"/>
+
+    <Button
+        android:id="@+id/btnRelative"
+        android:layout_marginTop="10dp"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:background="@color/kuning"
+        android:text="relative"/>
+
+    <Button
+        android:id="@+id/btnScrollview"
+        android:layout_marginTop="10dp"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:background="@color/oren"
+        android:text="scroll view"/>
+
+</LinearLayout>
